@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#game {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    margin: 10px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+.card.revealed {
+    background-color: transparent;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: red;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
